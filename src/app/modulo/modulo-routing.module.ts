@@ -4,21 +4,32 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContactanosComponent } from './contactanos/contactanos.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { ModuloComponent } from './modulo.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 
 const routes: Routes = [
-  {path:'inicio',component:InicioComponent},
-  {path:'nosotros',component:NosotrosComponent},
-  {path:'servicios',component:ServiciosComponent},
-  {path:'contactanos',component:ContactanosComponent},
+
+  {path:'dashboard',component:ModuloComponent,
+    children:[
+      {path:'inicio',component:InicioComponent},
+      {path:'nosotros',component:NosotrosComponent},
+      {path:'servicios',component:ServiciosComponent},
+      {path:'contactanos',component:ContactanosComponent}
+    ]
+  }
+
+  // {path:'inicio',component:InicioComponent},
+  // {path:'nosotros',component:NosotrosComponent},
+  // {path:'servicios',component:ServiciosComponent},
+  // {path:'contactanos',component:ContactanosComponent}
 ];
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forChild(routes)
   ],
   exports: [RouterModule]
 })

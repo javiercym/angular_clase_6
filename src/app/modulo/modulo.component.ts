@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-import { navbarService } from '../servicios/navbar.service';
 
 @Component({
   selector: 'app-modulo',
@@ -8,7 +6,7 @@ import { navbarService } from '../servicios/navbar.service';
   styleUrls: ['./modulo.component.css']
 })
 export class ModuloComponent {
+  constructor() { }
 
-
-
+  ngOnInit(): void {  }
 }
