@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 import { navbarService } from 'src/app/servicios/navbar.service';
 
 @Component({
@@ -10,8 +9,7 @@ import { navbarService } from 'src/app/servicios/navbar.service';
 export class NavbarComponent {
   menuItems?:any[];
 
-  constructor(private navbar:navbarService, private router:Router) { 
+  constructor(private navbar:navbarService) { 
     this.menuItems=this.navbar.menu;
-    console.log(this.navbar.menu)
   }
 }

@@ -6,23 +6,19 @@ import { Injectable } from '@angular/core';
   export class navbarService {
     menu:any[]=[{
       titulo:'inicio',
-      url:'/dashboard/inicio',
-      icono:'nav-icon fas fa-tachometer-alt'
+      url:'/dashboard/inicio'
     },
     {
       titulo:'nosotros',
-      url:'/dashboard/nosotros',
-      icono:'nav-icon fas fa-shopping-cart',
+      url:'/dashboard/nosotros'
     },
     {
         titulo:'servicios',
-        url:'/dashboard/servicios',
-        icono:'nav-icon fas fa-shopping-cart',
+        url:'/dashboard/servicios'
     },
     {
         titulo:'contactanos',
-        url:'/dashboard/contactanos',
-        icono:'nav-icon fas fa-shopping-cart',
+        url:'/dashboard/contactanos'
     },
   ]
 } 

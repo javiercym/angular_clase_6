@@ -6,7 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./modulo.component.css']
 })
 export class ModuloComponent {
-  constructor() { }
 
-  ngOnInit(): void {  }
 }

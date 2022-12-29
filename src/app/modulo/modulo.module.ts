@@ -20,12 +20,6 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     CuerpoModule,
     RouterModule
-  ],
-  exports:[
-    InicioComponent,
-    NosotrosComponent,
-    ServiciosComponent,
-    ContactanosComponent
   ]
 })
 export class ModuloModule { }

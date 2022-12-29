@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
     providedIn: 'root'
   })
   export class dataService {
-    menu:any[]=[
+    data:any[]=[
     {
       nombre :'Producto 1',
       imagen:'https://portal.andina.pe/EDPfotografia3/Thumbnail/2021/01/01/000737963W.jpg',

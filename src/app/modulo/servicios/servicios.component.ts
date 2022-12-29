@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 import { dataService } from 'src/app/servicios/data.service';
 
 @Component({
@@ -10,9 +9,8 @@ import { dataService } from 'src/app/servicios/data.service';
 export class ServiciosComponent {
   menuItems?:any[];
 
-  constructor(private navbar:dataService, private router:Router) { 
-    this.menuItems=this.navbar.menu;
-    console.log(this.navbar.menu)
+  constructor(private servicios:dataService) { 
+    this.menuItems=this.servicios.data;
   }
 }
 
