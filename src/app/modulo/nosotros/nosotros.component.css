@@ -1,0 +1,13 @@
+#inicio {
+    background: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("https://kinsta.com/es/wp-content/uploads/sites/8/2021/12/about-us-page-1024x512.png");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.titulo{
+    text-align: center;
+    margin: 30px;
+}
+.descripcion{
+    margin-bottom: 30px;
+}

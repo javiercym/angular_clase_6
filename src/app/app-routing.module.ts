@@ -1,7 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CuerpoModule } from './cuerpo/cuerpo.module';
 import { InicioComponent } from './modulo/inicio/inicio.component';
 import { ModuloRoutingModule } from './modulo/modulo-routing.module';
 import { ModuloComponent } from './modulo/modulo.component';

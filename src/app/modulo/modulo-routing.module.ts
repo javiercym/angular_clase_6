@@ -15,14 +15,13 @@ const routes: Routes = [
       {path:'inicio',component:InicioComponent},
       {path:'nosotros',component:NosotrosComponent},
       {path:'servicios',component:ServiciosComponent},
-      {path:'contactanos',component:ContactanosComponent}
+      {path:'contactanos',component:ContactanosComponent},
+      {path:'**',redirectTo:'inicio'}
     ]
+  },
+  {
+    path:'**',redirectTo:'dashboard'
   }
-
-  // {path:'inicio',component:InicioComponent},
-  // {path:'nosotros',component:NosotrosComponent},
-  // {path:'servicios',component:ServiciosComponent},
-  // {path:'contactanos',component:ContactanosComponent}
 ];
 
 @NgModule({
