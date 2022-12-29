@@ -4,6 +4,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CuerpoModule } from './cuerpo/cuerpo.module';
 import { ModuloComponent } from './modulo/modulo.component';
+import { ModuloModule } from './modulo/modulo.module';
+
 
 
 @NgModule({
@@ -15,8 +17,7 @@ import { ModuloComponent } from './modulo/modulo.component';
     BrowserModule,
     AppRoutingModule,
     CuerpoModule,
-    // ModuloModule
-    
+    ModuloModule,
   ],
   
   providers: [],

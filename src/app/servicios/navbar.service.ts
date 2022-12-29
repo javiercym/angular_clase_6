@@ -24,6 +24,5 @@ import { Injectable } from '@angular/core';
         url:'contactanos',
         icono:'nav-icon fas fa-shopping-cart',
     },
-
   ]
 } 

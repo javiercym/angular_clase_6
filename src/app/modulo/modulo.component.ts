@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { navbarService } from '../servicios/navbar.service';
 
 @Component({
   selector: 'app-modulo',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./modulo.component.css']
 })
 export class ModuloComponent {
+
+
 
 }
